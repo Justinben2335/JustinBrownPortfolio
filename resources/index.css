@@ -16,6 +16,8 @@ header {
     display:inline-block;
     float:right;
     background-color:rgb(240, 240, 240);
+    position:sticky;
+    height:25vh;
 }
 
 #nav-ul {
@@ -44,4 +46,23 @@ header {
 }
 #nav-ul li a:hover {
     border:2px white solid;
+}
+
+#spacer {
+    height:1000px;
+    width:100%;
+    background-color:lightcoral;
+}
+#aboutMe {
+    display:flex;
+    justify-content: space-between;
+}
+#aboutMePhoto img{
+    height:400px;
+    width:400px;
+
+}
+#aboutMeText {
+    display:inline-block;
+    border:1px solid black;
 }
